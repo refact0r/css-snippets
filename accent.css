@@ -23,7 +23,7 @@
 .divider-2rZFJK /* unread dividers */ {
 	--divider-color: var(--accent-2);
 }
-.strikethrough-2Kl6HF /* mute button strikethrough */,
+.strikethrough-3nXjYr /* mute button strikethrough */,
 .strikethrough-4IgyqA /* channel mute button strikethrough */ {
 	color: var(--accent-2) !important;
 }
