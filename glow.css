@@ -1,0 +1,28 @@
+.divider-IqmEqJ.isUnread-3Lojb- .unreadPill-3nEWYM,
+.expandedFolderIconWrapper-3RwQpD path,
+path[fill='var(--status-danger)'],
+.strikethrough-3nXjYr,
+.strikethrough-958bun {
+	filter: drop-shadow(0px 0px 4px var(--accent-2));
+}
+
+.expandedFolderIconWrapper-3RwQpD svg,
+.bar-2H7Q9u {
+	overflow: visible;
+}
+
+.barFill-3RgCsY {
+	border-radius: 4px;
+}
+
+.divider-IqmEqJ.isUnread-3Lojb-,
+.newMessagesBar-1hF-9G,
+.numberBadge-37OJ3S,
+.mention-3XBnnZ,
+.barFill-3RgCsY {
+	box-shadow: 0px 0px 5px 0.3px var(--accent-2);
+}
+
+.divider-IqmEqJ.isUnread-3Lojb- .content-3spvdd {
+	text-shadow: 0px 0px 5px 0.3px var(--accent-2);
+}
