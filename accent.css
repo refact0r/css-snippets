@@ -1,0 +1,81 @@
+:root {
+	/* color of links */
+	--accent-1: hsl(190, 80%, 60%);
+	/* color of unread dividers and some indicators */
+	--accent-2: hsl(190, 80%, 52%);
+	/* color of accented buttons */
+	--accent-3: hsl(190, 80%, 44%);
+	/* color of accented buttons when hovered */
+	--accent-4: hsl(190, 80%, 36%);
+	/* color of accented buttons when clicked */
+	--accent-5: hsl(190, 80%, 28%);
+	/* color of mentions and messages that mention you */
+	--mention: hsla(190, 80%, 52%, 0.08);
+	/* color of mentions and messages that mention you when hovered */
+	--mention-hover: hsla(190, 80%, 52%, 0.05);
+}
+
+/* replace ping/strikethrough red */
+.numberBadge-37OJ3S /* dm unread number */,
+.mention-3XBnnZ /* "NEW" serverlist indicator */ {
+	background: var(--accent-2) !important;
+}
+.divider-2rZFJK /* unread dividers */ {
+	--divider-color: var(--accent-2);
+}
+.strikethrough-2Kl6HF /* mute button strikethrough */,
+.strikethrough-4IgyqA /* channel mute button strikethrough */ {
+	color: var(--accent-2) !important;
+}
+path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
+	fill: var(--accent-2) !important;
+}
+
+/* replace blurple */
+.expandedFolderIconWrapper-3RwQpD svg /* folder icons */ {
+	color: var(--accent-2) !important;
+}
+.iconBadge-3Mmg92 /* dm button hover fill */ {
+	background: var(--accent-2) !important;
+}
+.theme-dark {
+	--blue-345: var(--accent-1); /* links */
+	--brand-260: var(--accent-2); /* "NEW" channel list indicator */
+	--brand-360: var(
+		--accent-2
+	); /* bot labels, dm button, spotify progressbar */
+	--brand-500: var(--accent-3); /* buttons */
+	--brand-560: var(--accent-4); /* button hovered */
+	--brand-600: var(--accent-5); /* button pressed */
+	--mention-background: var(--mention);
+	--mention-foreground: var(--accent-2);
+}
+.container-1QtPKm.checked-16gMAN /* settings checkbuttons */ {
+	background: var(--accent-3) !important;
+}
+
+/* replace ping yellow */
+.theme-dark {
+	--background-mentioned: var(--mention);
+	--background-mentioned-hover: var(--mention-hover);
+}
+.mentioned-Tre-dv:before /* mention message left edge */ {
+	background: var(--accent-3) !important;
+}
+
+/* replace green */
+.theme-dark {
+	--green-360: var(--accent-2); /* replace other green stuff */
+	--green-430: var(--accent-3); /* green buttons (like invite) */
+	--green-500: var(--accent-4); /* green button hover */
+	--green-530: var(--accent-5); /* green button click */
+	--text-positive: var(--accent-1);
+}
+.wrapper-3Un6-K[aria-label*="Online"] rect[fill="#23a55a"]  /* replace green online circles */ {
+	fill: var(--accent-2) !important;
+}
+
+/* reset this back to green because its an image :( */
+.icon-2O29O0 {
+	background-color: #3ba55c;
+}
