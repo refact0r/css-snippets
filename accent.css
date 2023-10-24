@@ -50,6 +50,8 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	--brand-600: var(--accent-5); /* button pressed */
 	--mention-background: var(--mention);
 	--mention-foreground: var(--accent-2);
+	--background-message-highlight: var(--mention);
+	--background-message-highlight-hover: var(--mention-hover);
 }
 .container-1QtPKm.checked-16gMAN /* settings checkbuttons */ {
 	background: var(--accent-3) !important;
