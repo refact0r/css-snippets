@@ -44,6 +44,7 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	--brand-360: var(
 		--accent-2
 	); /* bot labels, dm button, spotify progressbar */
+	--brand-430: var(--accent-4); /* send button hover */
 	--brand-500: var(--accent-3); /* buttons */
 	--brand-560: var(--accent-4); /* button hovered */
 	--brand-600: var(--accent-5); /* button pressed */
@@ -71,7 +72,7 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	--green-530: var(--accent-5); /* green button click */
 	--text-positive: var(--accent-1);
 }
-.wrapper-3Un6-K[aria-label*="Online"] rect[fill="#23a55a"]  /* replace green online circles */ {
+.wrapper-3Un6-K rect[fill="#23a55a"]  /* replace green online circles */ {
 	fill: var(--accent-2) !important;
 }
 
