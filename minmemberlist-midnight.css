@@ -1,0 +1,51 @@
+/* minified memberlist (midnight theme version) */
+:root {
+	--collapsed: 62px;
+	--expanded: 240px;
+	--transition: 0.2s ease-out;
+}
+.searchResultsWrap__9f374,
+.container_def45c {
+	margin-right: var(--spacing);
+}
+.container_b2ce9c {
+	background: none;
+}
+.membersWrap__90226,
+.container_b2ce9c {
+	padding-right: var(--spacing);
+	min-width: unset;
+	width: var(--collapsed);
+	transition: var(--transition);
+}
+.membersWrap__90226::before {
+	width: calc(100% - var(--spacing));
+}
+.members__9f47b {
+	width: var(--collapsed);
+	transition: var(--transition);
+}
+.membersWrap__90226:hover,
+.membersWrap__90226:hover .members__9f47b,
+.container_b2ce9c:hover {
+	width: var(--expanded);
+}
+.membersGroup__85843 {
+	height: 0;
+	padding-top: 0;
+	transition: var(--transition);
+}
+.membersWrap__90226:hover .membersGroup__85843 {
+	padding: 24px 8px 0 16px;
+	height: 40px;
+}
+.searchBar_e0c60b {
+	margin-right: var(--spacing);
+}
+.chat__52833:has(.membersWrap__90226:not(:hover)) .searchBar_e0c60b {
+	width: calc(var(--collapsed) - 24px) !important;
+	margin-left: calc(var(--spacing) + 8px);
+}
+.base__3e6af {
+	margin-right: 0;
+}
