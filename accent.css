@@ -17,32 +17,32 @@
 	--mention-hover: hsla(190, 80%, 52%, 0.05);
 }
 
-.activeButtonChild__6e162 {
+.activeButtonChild_a06035 {
 	color: var(--accent-2);
 }
-.container_ca50b9 /* user panel button strikethroughs */,
-.numberBadge__50328 /* unread number badge */,
-.toolbar__88c63 /* toolbar button strikethroughs */ {
+.container_b2ca13 /* user panel button strikethroughs */,
+.numberBadge__40d6f /* unread number badge */,
+.toolbar_e44302 /* toolbar button strikethroughs */ {
 	--status-danger: var(--accent-2);
 }
-.expandedFolderIconWrapper__458cf > svg {
+.expandedFolderIconWrapper_bc7085 > svg {
 	color: var(--accent-2) !important;
 }
-.divider_b9338f /* unread divider */ {
+.divider_fc5f50 /* unread divider */ {
 	--status-danger: var(--accent-3);
 }
-.message__80c10.mentioned__58017:before /* mention message left edge */,
-.container__871ba.checked__6bdb0 /* settings checkbuttons */ {
+.message_d5deea.mentioned_d5deea:before /* mention message left edge */,
+.container_cebd1c.checked_cebd1c /* settings checkbuttons */ {
 	background: var(--accent-3) !important;
 }
 path[fill='rgba(35, 165, 90, 1)'] {
 	fill: var(--accent-3);
 }
-.container_a308ae:last-child .icon__28d6c /* explore discoverable servers icon color */ {
+.container_aef5fd:last-child .icon_aef5fd /* explore discoverable servers icon color */ {
 	background-color: #3ba55c;
 	filter: hue-rotate(56deg) saturate(1.43);
 }
-.container_a308ae:first-child .icon__28d6c {
+.container_aef5fd:first-child .icon_aef5fd {
 	filter: hue-rotate(304deg) saturate(0.84) brightness(1.2);
 }
 rect[fill='#23a55a'] {
