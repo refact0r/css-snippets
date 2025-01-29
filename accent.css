@@ -22,13 +22,13 @@
 }
 .container_b2ca13 /* user panel button strikethroughs */,
 .numberBadge__40d6f /* unread number badge */,
-.toolbar_e44302 /* toolbar button strikethroughs */ {
+.toolbar_fc4f04 /* toolbar button strikethroughs */ {
 	--status-danger: var(--accent-2);
 }
 .expandedFolderIconWrapper_bc7085 > svg {
 	color: var(--accent-2) !important;
 }
-.divider_fc5f50 /* unread divider */ {
+.divider_c2654d /* unread divider */ {
 	--status-danger: var(--accent-3);
 }
 .message_d5deea.mentioned_d5deea:before /* mention message left edge */,
