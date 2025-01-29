@@ -1,4 +1,4 @@
-.divider_d5deea.isUnread_fc5f50 .unreadPill_fc5f50,
+.divider_d5deea.isUnread_c2654d .unreadPill_c2654d,
 .expandedFolderIconWrapper_bc7085 path,
 path[fill='var(--status-danger)'],
 .strikethrough_b2ca13,
@@ -15,14 +15,14 @@ path[fill='var(--status-danger)'],
 	border-radius: 4px;
 }
 
-.divider_d5deea.isUnread_fc5f50,
+.divider_d5deea.isUnread_c2654d,
 .newMessagesBar_cf58b5,
 .numberBadge__40d6f,
-.mention_c10249,
+.mention_edf32f,
 .barFill_c7a159 {
 	box-shadow: 0px 0px 5px 0.3px var(--accent-2);
 }
 
-.divider_d5deea.isUnread_fc5f50 .content_fc5f50 {
+.divider_d5deea.isUnread_c2654d .content_c2654d {
 	text-shadow: 0px 0px 5px 0.3px var(--accent-2);
 }
